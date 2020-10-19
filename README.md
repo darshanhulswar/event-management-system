@@ -35,3 +35,17 @@ These are the extensions that we have used for our vscode development environmen
 > - **[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)**
 
 ---
+
+## **External CDN Links used**
+
+### **CSS** CDN links
+
+- Bootstrap CDN
+- Font Awesome CDN
+- Fancy Box CDN
+
+### **JS** CDN scripts
+
+- JQuery CDN
+- Bootstrap JS CDN
+- Fancy Box JS CDN
