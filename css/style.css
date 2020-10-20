@@ -3,3 +3,8 @@
 body {
   font-family: "Spartan", sans-serif;
 }
+
+nav > div > a > .ems__logo {
+  height: 38px;
+  width: 38px;
+}
