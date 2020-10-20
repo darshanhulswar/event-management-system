@@ -43,6 +43,7 @@ These are the extensions that we have used for our vscode development environmen
 - Bootstrap CSS CDN
 - Fontawesome CDN
 - Fancy Box CDN
+- Animate on Scroll CDN
 
 ```html
 <!-- Bootstrap CSS -->
@@ -66,6 +67,9 @@ These are the extensions that we have used for our vscode development environmen
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
 />
+
+<!-- Animate on Scroll CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 ```
 
 ### **JS** CDN scripts
@@ -73,6 +77,7 @@ These are the extensions that we have used for our vscode development environmen
 - JQuery CDN
 - Bootstrap JS CDN
 - Fancy Box JS CDN
+- Animate on Scroll JS CDN
 
 ```html
 <!-- JQuery CDN -->
@@ -91,4 +96,7 @@ These are the extensions that we have used for our vscode development environmen
 
 <!-- Fancy Box JS [For Photo Gallery] -->
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+<!-- Animate on Scroll JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 ```
