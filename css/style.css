@@ -1,10 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
 
 body {
-  font-family: "Spartan", sans-serif;
+    font-family: "Spartan", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1d1c22;
+    color: #7c7891;
+}
+
+.navbar {
+    background: #1d1c22 !important;
+}
+
+#ems__navbar > ul > li > .nav-link {
+    color: #7c7891 !important;
 }
 
 nav > div > a > .ems__logo {
-  height: 38px;
-  width: 38px;
+    height: 38px;
+    width: 38px;
+}
+
+.bg- #ems__hero {
+    background: url(../assets/hero.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-layer {
+    background: rgba(0, 0, 0, 0.7);
 }
