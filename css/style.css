@@ -30,3 +30,12 @@ nav > div > a > .ems__logo {
 .bg-layer {
     background: rgba(0, 0, 0, 0.7);
 }
+
+.bg-none {
+    background: none;
+}
+
+.clients__1 {
+    width: 100px;
+    height: 20px;
+}
