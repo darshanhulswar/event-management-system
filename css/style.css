@@ -39,3 +39,21 @@ nav > div > a > .ems__logo {
     width: 100px;
     height: 20px;
 }
+
+.contact-header {
+    width: 100%;
+    height: 50vh;
+    background: url(../assets/contact-header.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-trans {
+    background-color: transparent !important;
+}
+
+.dark-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
