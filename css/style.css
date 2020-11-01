@@ -57,3 +57,23 @@ nav > div > a > .ems__logo {
     height: 100%;
     background: rgba(0, 0, 0, 0.7);
 }
+
+.bg-lin-grad-blue {
+    background: #6647ff;
+}
+
+.bg-create-an-event {
+    background: url(../assets/create-event.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nice-rounded-left {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.nice-rounded-right {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
