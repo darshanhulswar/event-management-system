@@ -77,3 +77,32 @@ nav > div > a > .ems__logo {
     border-top-right-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
+
+.zoom-on-over {
+    max-height: 450px;
+    min-height: 450px;
+    overflow-wrap: break-word;
+    cursor: pointer;
+    transition: 0.5s transform;
+}
+
+.zoom-on-over:hover {
+    transform: scale(1.02) translateZ(0);
+}
+
+.card-img-top {
+    max-height: 200px;
+    min-height: 200px;
+}
+
+#ems__features {
+    background: url(https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: url(../assets/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
