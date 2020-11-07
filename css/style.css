@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Spartan", sans-serif;
     margin: 0;
     padding: 0;
-    background: #1d1c22;
+    background: #1d1c22 !important;
     color: #7c7891;
 }
 
@@ -22,7 +26,8 @@ nav > div > a > .ems__logo {
 }
 
 .bg- #ems__hero {
-    background: url(../assets/hero.jpeg);
+    /* background: url(../assets/hero.jpeg); */
+    background: url("https://image.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -102,7 +107,58 @@ nav > div > a > .ems__logo {
 }
 
 .jumbotron {
-    background: url(../assets/header-bg.jpg);
+    background: url(https://image.freepik.com/free-vector/hexagonal-technology-pattern-mesh-background-with-text-space_1017-26293.jpg);
+    /* background: url("https://image.freepik.com/free-vector/shiny-white-gray-background-with-wavy-lines_1017-25101.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+/* Imported from Our Task Style */
+.full-screen {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    /* background-image: linear-gradient(
+        -225deg,
+        #69eacb 0%,
+        #eaccf8 48%,
+        #6654f1 100%
+    ); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.img {
+    width: 100%;
+    height: 12rem;
+    position: relative;
+    background: url(https://image.freepik.com/free-psd/black-laptop-dark-mockup_117023-1157.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-clrd {
+    color: #68cef7;
+}
+
+.bg-clr {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+.btn-grad {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.content-container {
+    position: relative;
+    top: 5%;
+    box-shadow: 0 0 30px rgb(2, 2, 2);
+}
+
+.max-width-500 {
+    max-width: 500px;
 }
